@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class TiposPrimitivos {
+	
+	public static void main(String[] args ) {
+		
+		//Importando Objeto
+		
+		Scanner Teclado = new Scanner (System.in);
+		
+		String nome = Teclado.nextLine();
+		
+		float nota =Teclado.nextFloat();
+		
+
+
+		//System.out.print("A nota é "+ nota);
+		
+		//System.out.println("A nota é "+ nota);
+			
+		//System.out.printf("A nota de %s é %.2f ",nome, nota);
+		
+		System.out.format("A nota de %s é %.2f ",nome, nota);
+		
+		
+	}
+
+}
